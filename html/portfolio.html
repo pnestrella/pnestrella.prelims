@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE RESUME USING HTML</title>
+
+    <style>
+      body{
+        background-color: rgb(220, 220, 218);
+      }
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            position: relative;
+        }
+
+        .line-height{
+            position: relative;
+            background: rgb(10, 10, 10);
+            height: 10px;
+            width: 10px;
+            padding-bottom: 100%;
+            padding-left: 10%;
+            padding-right: 20%;
+            margin-left: 5%;
+
+        }
+
+        .line-width{
+            position: absolute;
+            background: rgb(26, 22, 28);
+            height: 10px;
+            width: 100%;
+            padding-bottom: 20%;
+            padding-left: 50%;
+            padding-right: 1%;
+            margin-top: 5%;
+        }
+
+        #name{
+            margin: 3%;
+            position:relative;
+            color: wheat;
+            text-align:left;
+            font-size: 60px;
+            margin-left: -150px;
+        }
+
+        #jobs{
+            margin: 3%;
+            position:relative;
+            color: white;
+            text-align:left;
+            font-size: 20px;
+            margin-left: -10%;
+            margin-top: -20px;
+        }
+        #profile_pic {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    border: 5px solid;
+    border-color: aliceblue;
+    border-radius: 50%;
+}
+
+    hr{
+        background-color: white;
+        color: wheat;
+        height: 2px;
+        width: 30%;
+        top:50%;
+    }
+
+    .info{
+        margin-top: 500px;
+        color: wheat;
+        margin-left: -50px;
+        width: 500px;
+        letter-spacing: normal;
+        height: 200px;
+    }
+
+    .extra_info{
+        padding: 500px;
+        color: black;
+        margin-top: -800px;
+        margin-left:-150px;
+        margin-right: 500px;
+        white-space: nowrap;
+    }
+
+    .titles{
+        font-size: 25px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        font-weight: 1000;
+        color: rgb(41, 39, 37);
+    }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="line-width">
+            <h1 id="name">Patrick Nhel <br> Estrella</h1>
+
+            <p id="jobs">Student</p>
+        </div>
+        <div class="line-height">
+            <section class="pic">
+                <img src="mypic.jpg" alt="My profile picture" id="profile_pic">
+            </section>
+            <hr>
+            <section class="info">
+
+                <h2>Profile</h2>
+                <p>Currently studying Bachelor of <br>Science in Information Technology 
+                    <br>in Ateneo de Naga University
+                </p>
+                <br>
+                <hr>
+                <br>
+                <h2>Address</h2>
+                <p><i> San Isidro, Pamplona,Camarines Sur</i></p>
+                <br>
+                <hr>
+                <br>
+                <h2>Contact me</h2>
+                <p>0909########</p>
+                <p>@kithpw@gmail.com</p>
+            </section>
+
+            <section class="extra_info">
+                <div>
+                   <ul>
+                        <li class="titles">Short Personal Statement</li>
+                        <li class="titles">Educational History</li>
+                        <li class="titles">General and Technical Skills</li>
+                        <li class="titles">Character References</li>
+                        <li class="titles">Additional information</li>
+                   </ul>
+                </div>
+                
+             
+            </section>
+           
+         
+        </div>
+       
+    </div>
+</body>
+</html>
+
+<!-- REFERENCE: https://marketplace.canva.com/EAFBL8KRmSA/1/0/1131w/canva-white-simple-student-cv-resume-NXs7xSf0K8I.jpg-->
